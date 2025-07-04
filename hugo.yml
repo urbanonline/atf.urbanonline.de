@@ -1,9 +1,8 @@
 baseurl: "https://example.org/"
 title: "Conference name"
 canonifyurls: true
-theme: "hugo-conference"
 
-GoogleAnalytics: ""
+defaultContentLanguage: de
 
 params:
   # Conference info
@@ -11,7 +10,7 @@ params:
   Description: "Conference description"
   Date: "09. Oktober 2025"
   Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Coco Bongo"
+  Venue: "27798"
   Address: "Auf der Striepe 9"
   City:  "Hude-Wüsting"
   State: "Quintana"
@@ -27,7 +26,7 @@ params:
     - schedule
     - sponsors
     - partners
-    #- contact
+    - contact
 
   # Titles which you can translate to other languages
   Titles:
@@ -36,7 +35,7 @@ params:
     speakers: "Referenten"
     schedule: "Programm"
     sponsors: "Sponsoren"
-    partners: "Partners"
+    partners: "Partner"
     contact: "Kontakt"
 
   # The Call To Action button at the header,
