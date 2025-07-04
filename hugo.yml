@@ -1,0 +1,5 @@
+baseURL: https://atf.urbanonline.de/
+languageCode: de
+title: AFT - Urban
+
+theme: github.com/phenomenology-of-code/hugo-xmin
