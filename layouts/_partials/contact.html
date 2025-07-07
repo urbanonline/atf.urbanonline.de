@@ -1,18 +1,26 @@
 <h2 class="section-title">{{ .titles.contact }}</h2>
 
-<p>Falls Sie ein Frage zu unserer veranstalung haben, können Sie gerne mit uns in Kontakt treten.</p>
-<form method="post" action="contact.php" id="form" class="form">
+<p>Falls Sie ein Frage zu unserer Veranstaltung haben, können Sie gerne mit uns in Kontakt treten.</p>
+
+<form method="post" action="https://api.staticforms.xyz/submit" id="form" class="form">
   <div class="control-group control-group-name">
     <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="Ihr Name">
+    <input type="text" name="name" id="name" placeholder="Ihr Name" required>
   </div>
   <div class="control-group control-group-email">
     <label for="email">E-Mail-Adresse</label>
-  <input type="email" name="email" id="email" placeholder="Ihre E-Mail-Adresse">
+  <input type="email" name="email" id="email" placeholder="Ihre E-Mail-Adresse" required>
   </div>
   <div class="control-group">
     <label for="message">Nachricht</label>
-  <textarea name="" id="message" cols="30" rows="10" placeholder="Ihre Nachricht"></textarea>
+  <textarea name="" id="message" cols="30" rows="10" placeholder="Ihre Nachricht" required></textarea>
   </div>
+  <div class="g-recaptcha" data-sitekey="6LfenXorAAAAAAkNBpmvNtHBRUmsWAWmFM9JAzx5"></div>
+  <input type="hidden" name="accessKey" value="sf_bae5e55fj3373ligi6ebbjc8">
+
+  <input type="hidden" name="subject" value="Anfrage ATF-Schulung Oktober 2025">
+  <input type="hidden" name="replyTo" value="@email"> <!-- Use the email from the form -->
+  <input type="hidden" name="redirectTo" value="https://atf.urbanonline.de/contact/success">
+
   <input class="btn btn-send" type="submit" value="Absenden">
 </form>

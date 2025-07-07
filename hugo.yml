@@ -3,6 +3,7 @@ title: "Conference name"
 canonifyurls: true
 
 defaultContentLanguage: de
+#contentDir: content
 
 params:
   # Conference info
