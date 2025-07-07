@@ -8,48 +8,34 @@ Address: "Auf der Striepe 9"
 City:  "27798 Hude-Wüsting"
 State: ""
 Images: ["/img/badge.jpg"]
-GoogleMapsKey: "my-secret-maps-key"
 # Active sections on the website to deactivate comment out with '#'
 # you can also change order here and it will reflect on page
 Sections:
-  - about
-  - location
-  - speakers
-  - schedule
-  - registration
-  - partners
-  - contact
+  - ueber
+  - ort
+  - programm
+  - referenten
+  - registrierung
+  - atf
+  - kosten
+  - kontakt
 # Titles which you can translate to other languages
 Titles:
-  about: "Über"
-  location: "Veranstaltungsort"
-  speakers: "Referenten"
-  schedule: "Programm"
-  registration: Registrierung
-  partners: Partner
-  contact: "Kontakt"
+  ueber: "Über"
+  ort: "Veranstaltungsort"
+  referenten: "Referenten"
+  programm: "Programm"
+  registrierung: Registrierung
+  atf: ATF-Anerkennung
+  kosten: "Kosten"
+  kontakt: "Kontakt"
 # The Call To Action button at the header,
 # If you don't want this, just remove the callToAction property.
 CallToAction:
   text: "Registrieren Sie sich jetzt!"
-  link: "http://register.example.com"
-# Fork me on GitHub, if you don't want this, just remove the forkButton property
-# ForkButton:
-# repository: "https://github.com/jweslley/hugo-conference/"
-# List of Sponsors
-Registration:
-  - name: "Hugo"
-    logo: "/img/hugo.png"
-    url: "http://gohugo.io"
-# List of Partners
-Partners:
-  - name: "Hugo"
-    logo: "/img/hugo.jpg"
-    url: "https://gohugo.io"
-  - name: "BrazilJS"
-    logo: "/img/partner.png"
-    url: "http://braziljs.org"
-# Das gesmte Programm
+  link: "#registrierung"
+
+# Das gesamte Programm
 Schedule:
   - name: "Ankunft der Teilnehmer"
     time: "bis 9:00"
