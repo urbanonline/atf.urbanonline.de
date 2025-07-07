@@ -292,16 +292,16 @@ hr {
 h2,
 h3,
 h4 {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: normal;
-  margin-bottom: .4em;
+  margin-bottom: .5em;
   letter-spacing: -0.02em;
 }
 h3 {
-  font-size: 4em;
+  font-size: 3em;
 }
 h4 {
-  font-size: 3em;
+  font-size: 2em;
 }
 p {
   font-size: 1.6em;
@@ -484,16 +484,15 @@ nav {
 }
 .control-group {
   height: auto;
-  width: 96%;
+  width: 100%;
   clear: both;
   margin-bottom: 20px;
 }
 .control-group-name,
 .control-group-right {
   clear: none;
-  width: 45%;
+  width: 50%;
   float: left;
-  padding-right: 25px;
 }
 .control-group-right {
   margin-right: 0;

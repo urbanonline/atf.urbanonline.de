@@ -1,6 +1,6 @@
-<h2 class="section-title">{{ .titles.registration }}</h2>
+<h2 class="section-title">Registrierung</h2>
 
-<p>Falls Sie ein Frage zu unserer Veranstaltung haben, können Sie gerne mit uns in Kontakt treten.</p>
+<p>Nutzen Sie das nachfolgende Formular, um sich verbindlich für die Veranstaltung zu registrieren.</p>
 
 <form method="post" action="https://api.staticforms.xyz/submit" id="form" class="form">
 
@@ -13,15 +13,19 @@
     autocomplete="off"
   >
 
-  <!-- Custom field with $ prefix -->
-  <div class="control-group">
+  <div class="control-group control-group-name" style="width: 15%;" >
+    <label for="anrede">Anrede</label>
+    <input type="text" id="titel" name="titel" placeholder="Ihr Titel" style="width: 80%;">
+  </div>
+
+  <div class="control-group control-group-right">
     <label for="titel">Titel</label>
-    <input style="width: 20%;" type="text" id="titel" name="$titel">
+    <input style="width: 25%;" type="text" id="titel" name="titel" placeholder="Ihr Titel">
   </div>
 
   <div class="control-group control-group-name">
     <label for="vorname">Vorname</label>
-    <input type="text" id="vorname" name="$vorname">
+    <input type="text" id="vorname" name="$vorname" placeholder="Ihr Vorname" style="width: 95%;" required>
   </div>
 
   <div class="control-group control-group-right">
@@ -29,10 +33,9 @@
     <input type="text" name="name" id="name" placeholder="Ihr Name" required>
   </div>
 
-    <!-- Custom field with $ prefix -->
   <div class="control-group">
-    <label for="praxis">Tierarztpraxis:</label>
-    <input type="text" id="praxis" name="$praxis">
+    <label for="praxis">Tierarztpraxis</label>
+    <input type="text" id="praxis" name="Praxis" placeholder="Ihre Tierarztpraxis" >
   </div>
 
   <div class="control-group" >
@@ -40,27 +43,32 @@
   <input  type="text" name="strasse" id="email" placeholder="Ihre Straße" required>
   </div>
 
-  <div class="control-group control-group-name">
+
+  <div class="control-group control-group-name" style="width: 15%;" >
     <label for="plz">PLZ</label>
-    <input style="width: 20%;" type="text" id="plz" name="plz" placeholder="Ihre PLZ">
+    <input type="text" id="plz" name="plz" placeholder="Ihre PLZ" style="width: 85%;">
   </div>
 
-  <div class="control-group control-group-right">
+  <div class="control-group control-group-right" style="width: 85%;">
     <label for="ort">Ort</label>
-    <input style="width: 100%;" type="text" name="ort" id="name" placeholder="Ihr Wohnort" required>
+    <input type="text" name="ort" id="name" placeholder="Ihr Wohnort" required>
   </div>
 
   <div class="control-group ">
     <label for="email">E-Mail-Adresse</label>
-  <input style="clear: both;" type="email" name="email" id="email" placeholder="Ihre E-Mail-Adresse" required>
+  <input type="email" name="email" id="email" placeholder="Ihre E-Mail-Adresse" required>
   </div>
 
-  <input type="checkbox" id="vegetarisch" name="vegetarisch" value="Ja">
-  <label for="vehicle1">Vegetarisches Essen gewünscht?</label>
+  <div class="control-group" style="padding-top: 8pt; padding-bottom: 8pt;">
+  <div style="display: flex;">
+    <div><input type="checkbox" id="vegetarisch" name="vegetarisch" value="Ja" class="p-3"></div>
+    <div><label for="vegetarisch">&nbsp;&nbsp;Vegetarisches Essen gewünscht</label></div>
+  </div>
+  </div>
 
   <div class="control-group">
   <label for="message">Bemerkungen (optional)</label>
-  <textarea name="" id="message" cols="30" rows="10" placeholder="Ihre Nachricht"></textarea>
+  <textarea style="height: 200px;" name="Bemerkungen" id="message" cols="30" rows="10" placeholder="Ihre Bemerkungen"></textarea>
   </div>
   <div class="g-recaptcha" data-sitekey="6LfenXorAAAAAAkNBpmvNtHBRUmsWAWmFM9JAzx5"></div>
   <input type="hidden" name="accessKey" value="sf_bae5e55fj3373ligi6ebbjc8">
