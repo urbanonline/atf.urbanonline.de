@@ -63,17 +63,17 @@ params:
       logo: "/img/partner.png"
       url: "http://braziljs.org"
 
-  # The entire schedule
+  # Das gesmte Programm
   Schedule:
     - name: "Ankunft der Teilnehmer"
-      time: "8:20 bis 9:00"
+      time: "bis 9:00"
 
     - name: ""
-      photo: "/img/joshua-hirneiss.jpg"
+      photo: "/img/joshua-hirneiss.png"
       bio: "Biografische Daten"
       company: "Geschäftsführer Urban GmbH"
       link:
-        href: "http://twitter.com/linus"
+        href: "http://www.urbanonline.de"
         text: "Geschäftsführer Urban GmbH & Co. KG"
       presentation:
         title: "Joshua Hirneiß"
@@ -81,11 +81,11 @@ params:
         time: "9:00 bis 9:15"
 
     - name: ""
-      photo: "/img/speaker.jpg"
-      bio: "Dr. Theresa Scheu ist ..."
+      photo: "/img/speaker.png"
+      bio: "Dr. Theresa Scheu ist Fachtierärztin für Rinder auf dem Lehr- und Versuchsgut Neumühle (Pfalz) "
       link:
-        href: "http://twitter.com/linus"
-        text: "fachtierärztin für Rinder"
+        href: "https://www.hofgut-neumuehle.de/"
+        text: "Fachtierärztin für Rinder"
       presentation:
         title: "Dr. Theresa Scheu"
         description: "Ergebnisse und Erfahrungen von Untersuchungen mit Kälbern am Tränkeautomaten auf dem Hofgut Neumühle"
@@ -94,56 +94,72 @@ params:
     - name: "Pause"
       time: "10:15 bis 10:30"
 
-    - name: "Lunch"
-      time: "12h00"
-
-    - name: "Chuck Norris"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
+    - name: ""
+      photo: "/img/andre-effmert.jpg"
+      bio: "Andre Effmert ist Fachberater für Kälbergesundheit und der Leiter des Schulungszentrums der Firma Urban"
+      company: "Urban GmbH & Co. KG"
       link:
-        href: "http://twitter.com/littlechuck"
-        text: "@littlechuck"
+        href: "http://www.urbanonline.de"
+        text: "Fachberater Kälbergesundheit"
       presentation:
-        title: "How to kill a elephant with one finger"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
+        title: "Andre Effmert"
+        description: "Fallstricke am Tränkeautomaten: Fehler erkennen"
+        time: "10:30 bis 11:45"
 
-    - name: "Steve Jobs"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
+    - name: ""
+      photo: "/img/andre-effmert.jpg"
+      bio: "Andre Effmert ist Fachberater für Kälbergesundheit und der Leiter des Schulungszentrums der Firma Urban"
+      company: "Urban GmbH & Co. KG"
+      link:
+        href: "http://www.urbanonline.de"
+        text: "Fachberater Kälbergesundheit"
+      presentation:
+        title: "Andre Effmert"
+        description: "Praktische Übungen am Tränkeautomaten zur Fehlererkennung"
+        time: "11:45 bis 12:30"
+
+    - name: "Mittagessen"
+      time: "12:30 bis 13:30 "
+
+    - name: ""
+      photo: "/img/regina-deininger.png"
+      bio: "Dr. Theresa Scheu ist Fachtierärztin für Rinder auf dem Lehr- und Versuchsgut Neumühle (Pfalz)"
+      company: "Lehr- und Versuchsgut Neumühle, Urban GmbH & Co. KG"
       link:
         href: "http://github.com/stevie"
-        text: "@stevie"
+        text: ""
       presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
+        title: "Dr. Theresa Scheu, Regina Deininger"
+        description: "UV-C zur Desinfektion in der Stallumgebung, effektiv oder Hokuspokus?"
+        time: "13:30 bis 15:00"
 
     - name: "Kaffeepause"
-      time: "15h00"
+      time: "15:00 bis 15:15"
 
-    - name: "Mark Zuckerberg"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Facebook"
+    - name: ""
+      photo: "/img/speakers.png"
+      bio: "Praktische Übungen/ Fragen und Antworten"
+      company: ""
       link:
-        href: "http://twitter.com/zuck"
-        text: "@zuck"
+        href: ""
+        text: ""
       presentation:
-        title: "Revealing Facebook Secrets"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "16h00"
+        title: "Alle Dozenten"
+        description: "Praktische Übungen/ Fragen und Antworten"
+        time: "15:00 bis 16:15"
 
-    - name: "Steve Wozniak"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
+    - name: ""
+      photo: "/img/andreas-deininger.jpg"
+      bio: "Dr. Andreas Deininger ist Leiter des Produktmanagements der Firma Urban GmbH & Co. KG"
+      company: "Urban GmbH & Co.KG"
       link:
-        href: "http://twitter.com/woz"
-        text: "@woz"
+        href: "http://www.urbanonline.de"
+        text: "Leiter Produktmanagement"
       presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "17h00"
+        title: "Dr. Andreas Deininger"
+        description: "Schlussworte, Zusammenfassung der Veranstaltung "
+        time: "16:15 bis 16:30 "
+
+    - name: "Ende der Veranstaltung"
+      time: "16:30"
+        
