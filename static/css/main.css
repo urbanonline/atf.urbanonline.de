@@ -475,7 +475,7 @@ nav {
   line-height: 150px;
 }
 /* =============================================================================
-   CONTATO
+   KONTAKT FORM
    ========================================================================== */
 .form label {
   font-size: 16px;
@@ -484,17 +484,18 @@ nav {
 }
 .control-group {
   height: auto;
+  width: 96%;
   clear: both;
   margin-bottom: 20px;
 }
 .control-group-name,
-.control-group-email {
+.control-group-right {
   clear: none;
-  width: 467px;
+  width: 45%;
   float: left;
-  margin-right: 25px;
+  padding-right: 25px;
 }
-.control-group-email {
+.control-group-right {
   margin-right: 0;
 }
 .form input[type=text],
@@ -578,7 +579,7 @@ nav {
   }
   /* contact */
   .control-group-name,
-  .control-group-email {
+  .control-group-right {
     clear: both;
     width: 100%;
     float: none;
