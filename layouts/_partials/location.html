@@ -1,9 +1,47 @@
-<h2 class="section-title">{{ .titles.location }}</h2>
+<h2 class="section-title">Ort der Veranstaltung</h2>
 
-<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop="streetAddress">{{ .address }}. </span>
-  <span itemprop="addressLocality">{{ .city }}</span>,
-  <span itemprop="addressRegion"> {{ .state }}</span>
+<p>Die Veranstaltung findet im <b>Schulungszentrum</b> der Fa. Urban GmbH statt:</p>
+
+<p>Urban Gmbh & Co. KG<br>
+Auf der Striepe 9<br>
+27798 Hude-Wüsting
 </p>
 
-<div id="map-canvas" class="location-area" data-address="{{ .address }}, {{ .city }} - {{ .state }}"></div>
+
+<div id="map"></div>
+    <!-- OpenLayers JS-->
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.6.0/dist/ol.js" type="text/javascript"></script>
+
+    <!-- App code -->
+    <script>
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([8.346551076841234, 53.118384614918924]),
+          zoom: 15
+        })
+      });
+
+      const layer = new ol.layer.Vector({
+        source: new ol.source.Vector({
+          features: [
+            new ol.Feature({
+              geometry: new ol.geom.Point(ol.proj.fromLonLat([8.34522547500962, 53.1181913702934])),
+            })
+          ]
+        }),
+        style: new ol.style.Style({
+          image: new ol.style.Icon({
+            anchor: [0.5, 1],
+            crossOrigin: 'anonymous',
+            src: 'img/logo-urban.png',
+          })
+        })
+      });
+      map.addLayer(layer);
+    </script>
