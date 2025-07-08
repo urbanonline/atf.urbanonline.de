@@ -2,14 +2,14 @@
   <ul class="wrapper">
     <li class="nav-item">
         <a href="#" title="Urban GmbH & Co. KG" class="nav-link">
-      <img height="35px" alt="Logo Urban GmnH & Co.KG" src="img/logo-urban.png">
+      <img height="35px" alt="Logo Urban GmbH & Co.KG" src="/img/logo-urban.png">
         </a>
     </li>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    {{ range $section := $.Site.Params.Sections }}
+    {{ range $section := site.Params.Sections }}
       <li class="nav-item">
-        <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
-          {{ index $.Site.Params.Titles $section }}
+        <a href="/#{{ $section }}" title="{{ index site.Params.Titles $section }}" class="nav-link">
+          {{ index site.Params.Titles $section }}
         </a>
       </li>
     {{ end }}
