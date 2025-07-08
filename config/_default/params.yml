@@ -51,7 +51,7 @@ Schedule:
       description: "Begrüßung der Teilnehmer"
       time: "9:00 bis 9:15"
   - name: ""
-    photo: "/img/speaker.png"
+    photo: "/img/theresa-scheu.jpg"
     bio: "Dr. Theresa Scheu ist Fachtierärztin für Rinder auf dem Lehr- und Versuchsgut Neumühle (Pfalz) "
     link:
       href: "https://www.hofgut-neumuehle.de/"

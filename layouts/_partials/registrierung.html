@@ -13,24 +13,26 @@
     autocomplete="off"
   >
 
+  <input type="hidden" name="Registrierung" value="ATF-Schulung Oktober 2025">
+
   <div class="control-group control-group-name" style="width: 15%;" >
     <label for="anrede">Anrede</label>
-    <input type="text" id="titel" name="titel" placeholder="Ihr Titel" style="width: 80%;">
+    <input type="text" id="titel" name="Anrede" placeholder="Ihre Anrede" style="width: 80%;">
   </div>
 
   <div class="control-group control-group-right">
     <label for="titel">Titel</label>
-    <input style="width: 25%;" type="text" id="titel" name="titel" placeholder="Ihr Titel">
+    <input style="width: 25%;" type="text" id="titel" name="Titel" placeholder="Ihr Titel">
   </div>
 
   <div class="control-group control-group-name">
-    <label for="vorname">Vorname</label>
-    <input type="text" id="vorname" name="$vorname" placeholder="Ihr Vorname" style="width: 95%;" required>
+    <label for="vorname">Vorname*</label>
+    <input type="text" id="vorname" name="Vorname" placeholder="Ihr Vorname" style="width: 95%;" required>
   </div>
 
   <div class="control-group control-group-right">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="Ihr Name" required>
+    <label for="name">Name*</label>
+    <input type="text" name="Name" id="name" placeholder="Ihr Name" required>
   </div>
 
   <div class="control-group">
@@ -39,29 +41,29 @@
   </div>
 
   <div class="control-group" >
-    <label for="strasse">Straße</label>
-  <input  type="text" name="strasse" id="email" placeholder="Ihre Straße" required>
+    <label for="strasse">Straße*</label>
+  <input  type="text" name="Strasse" id="email" placeholder="Ihre Straße" required>
   </div>
 
 
   <div class="control-group control-group-name" style="width: 15%;" >
-    <label for="plz">PLZ</label>
-    <input type="text" id="plz" name="plz" placeholder="Ihre PLZ" style="width: 85%;">
+    <label for="plz">PLZ*</label>
+    <input type="text" id="plz" name="PLZ" placeholder="Ihre PLZ" style="width: 85%;" required>
   </div>
 
   <div class="control-group control-group-right" style="width: 85%;">
-    <label for="ort">Ort</label>
-    <input type="text" name="ort" id="name" placeholder="Ihr Wohnort" required>
+    <label for="ort">Ort*</label>
+    <input type="text" name="ort" id="Ort" placeholder="Ihr Wohnort" required>
   </div>
 
   <div class="control-group ">
-    <label for="email">E-Mail-Adresse</label>
-  <input type="email" name="email" id="email" placeholder="Ihre E-Mail-Adresse" required>
+    <label for="email">E-Mail-Adresse*</label>
+  <input type="email" name="E-Mail" id="email" placeholder="Ihre E-Mail-Adresse" required>
   </div>
 
   <div class="control-group" style="padding-top: 8pt; padding-bottom: 8pt;">
   <div style="display: flex;">
-    <div><input type="checkbox" id="vegetarisch" name="vegetarisch" value="Ja" class="p-3"></div>
+    <div><input type="checkbox" id="vegetarisch" name="Vegetarisch" value="Ja" class="p-3"></div>
     <div><label for="vegetarisch">&nbsp;&nbsp;Vegetarisches Essen gewünscht</label></div>
   </div>
   </div>
@@ -73,7 +75,6 @@
   <div class="g-recaptcha" data-sitekey="6LfenXorAAAAAAkNBpmvNtHBRUmsWAWmFM9JAzx5"></div>
   <input type="hidden" name="accessKey" value="sf_bae5e55fj3373ligi6ebbjc8">
 
-  <input type="hidden" name="subject" value="Registrierung ATF-Schulung Oktober 2025">
   <input type="hidden" name="replyTo" value="@email"> <!-- Use the email from the form -->
   <input type="hidden" name="redirectTo" value="https://atf.urbanonline.de/registrierung/erfolg">
 
