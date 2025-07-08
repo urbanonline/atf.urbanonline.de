@@ -2,27 +2,100 @@
 <p>&nbsp;</p>
 
 <ul class="speakers-list">
-{{ range $speaker := (where .schedule "presentation" "ne" nil) }}
+
+  <!-- Joshua Hirneiß -->
+
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    {{ with .photo }}
       <span class="speaker-photo">
-        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+        <img class="photo" src="/img/joshua-hirneiss.png" alt="Joshua Hirneiß" itemprop="image">
       </span>
-    {{ end }}
 
     <h3 class="speech-title">
-      {{ with .presentation.time }}
-      <span class="speech-time">{{ . }}</span>
-      {{ end }}
-      <span>{{ .presentation.title }}</span>
+      <span class="speech-time">9:00 bis 9:15 h</span>
+      <span>Joshua Hirneiß</span>
     </h3>
 
-    <h3 class="speakers-name">{{ .name }}
-      {{ with .link }}
-      <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
-      {{ end }}
+    <h3 class="speakers-name">
+      <a href="https://www.urbanonline.de" target="_blank" title="Urban GmbH & Co. KG">Urban GmbH & Co. KG</a>
     </h3>
-    <p class="speakers-bio">{{ .bio }}</p>
+    <h3 class="speakers-name">Geschäftsführer<br></h3>
+    <p class="speakers-bio">Joshua Hirneiß fungiert seit Juli 2022 Geschäftsführer der Fa. Urban GmbH & Co.KG</p>
   </li>
-{{ end }}
+
+  <!-- Theresa Scheu -->
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      <span class="speaker-photo">
+        <img class="photo" src="/img/theresa-scheu.jpg" alt="Theresa Scheu" itemprop="image">
+      </span>
+
+    <h3 class="speech-title">
+      <span class="speech-time">9:15 bis 10:15 h</span>
+      <span>Dr. Theresa Scheu</span>
+    </h3>
+
+    <h3 class="speakers-name">
+      <a href="https://www.hofgut-neumuehle.de/" target="_blank" title="Hofgut Neumühle">Hofgut Neumühle</a>
+    </h3>
+    <h3 class="speakers-name">Fachtierärztin für Rinder<br></h3>
+    <p class="speakers-bio">Dr. Theresa Scheu ist Wissenschaftlerin und Bedienstete auf dem Lehr- und Versuchsgut Neumühle (Pfalz)</p>
+  </li>
+
+  <!-- Andre Effmert -->
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      <span class="speaker-photo">
+        <img class="photo" src="/img/andre-effmert.jpg" alt="Andre Effmert" itemprop="image">
+      </span>
+
+    <h3 class="speech-title">
+      <span class="speech-time">10:30 bis 12:30 h</span>
+      <span>Andre Effmert</span>
+    </h3>
+
+    <h3 class="speakers-name">
+      <a href="https://www.urbanonline.de" target="_blank" title="Urban GmbH & Co. KG">Urban GmbH & Co. KG</a>
+    </h3>
+    <h3 class="speakers-name">Fachberater Kälbergesundheit<br></h3>
+    <p class="speakers-bio">Andre Effmert ist Leiter des Schulungszentrums der Firma Urban und Fachberater für Kälbergesundheit.</p>
+  </li>
+
+  <!-- Regina Deininger -->
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      <span class="speaker-photo">
+        <img class="photo" src="/img/regina-deininger.png" alt="Regina Deininger" itemprop="image">
+      </span>
+
+    <h3 class="speech-title">
+      <span class="speech-time">13:30 bis 15:00 h</span>
+      <span>Regina Deininger</span>
+    </h3>
+
+    <h3 class="speakers-name">
+      <a href="https://www.urbanonline.de" target="_blank" title="Urban GmbH & Co. KG">Urban GmbH & Co. KG</a>
+    </h3>
+    <h3 class="speakers-name">Produktmanagement UV-C<br></h3>
+    <p class="speakers-bio">Regina Deininger ist Diplom-Biologin und als Produktmanagerin verantwortlich für alle Aktivitäten der Fa. Urban GmbH im Bereich UV-C Hygiene und Desinfektion.</p>
+  </li>
+
+  <!-- Andreas Deininger -->
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      <span class="speaker-photo">
+        <img class="photo" src="/img/andreas-deininger.jpg" alt="Andreas Deininger" itemprop="image">
+      </span>
+
+    <h3 class="speech-title">
+      <span class="speech-time">16:15 bis 16:30 h</span>
+      <span>Dr. Andreas Deininger</span>
+    </h3>
+
+    <h3 class="speakers-name">
+      <a href="https://www.urbanonline.de" target="_blank" title="Urban GmbH & Co. KG">Urban GmbH & Co. KG</a>
+    </h3>
+    <h3 class="speakers-name">Leiter Produktmanagement<br></h3>
+    <p class="speakers-bio">Dr. Andreas Deininger fungiert seit mehr als einem Jahrzehnt als Produktmanager der Fa. Urban GmbH & Co.KG</p>
+  </li>
+
 </ul>
