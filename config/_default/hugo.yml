@@ -1,5 +1,4 @@
-baseurl: "https://example.org/"
-title: "Conference name"
-canonifyurls: true
+baseurl: "https://atf.urbanonline.de/"
+title: "Praxisworkshop 'Erfolgreicher Einsatz von Tränkeautomaten'"
 
 defaultContentLanguage: de
