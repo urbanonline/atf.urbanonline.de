@@ -12,7 +12,7 @@ Sections:
 # Titles which you can translate to other languages
 Titles:
   ueber: "Über"
-  ort: "Veranstaltungsort"
+  ort: "Ort"
   referenten: "Referenten"
   programm: "Programm"
   registrierung: Registrierung
@@ -113,4 +113,3 @@ Schedule:
       time: "16:15 bis 16:30 "
   - name: "Ende der Veranstaltung"
     time: "16:30"
-        

@@ -1,11 +1,14 @@
 <nav id="nav">
   <ul class="wrapper">
     <li class="nav-item">
-        <a href="#" title="Urban GmbH & Co. KG" class="nav-link">
+        <a href="https://www.urbanonline.de" target="_blank" title="Urban GmbH & Co. KG" class="nav-link">
       <img height="35px" alt="Logo Urban GmbH & Co.KG" src="/img/logo-urban.png">
         </a>
     </li>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <li class="nav-item">
+        <a href="/pdf/Programm-Schulung-Urban-ATF.pdf" target="_blank" title="Flyer (pdf)" class="nav-link">Flyer (pdf)</a>
+    </li>
+
     {{ range $section := site.Params.Sections }}
       <li class="nav-item">
         <a href="/#{{ $section }}" title="{{ index site.Params.Titles $section }}" class="nav-link">
