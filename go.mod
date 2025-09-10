@@ -1,3 +1,3 @@
 module github.com/urbanonline/atf.urbanonline.de
 
-go 1.25.0
+go 1.25.1
