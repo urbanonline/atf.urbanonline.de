@@ -54,6 +54,11 @@ jobs:
         with:
           path: ./public
 
+      - name: Hyperlink link checker
+        uses: untitaker/hyperlink@519c669cecc7770e73bb049a8df2962e231eef0f
+        with:
+          args: --check-anchors public/
+
   # Deployment job
   deploy:
     environment:
