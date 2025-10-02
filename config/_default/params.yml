@@ -5,7 +5,7 @@ Sections:
   - ort
   - programm
   - referenten
-  - registrierung
+# - registrierung
   - atf
   - kosten
   - kontakt
@@ -15,15 +15,10 @@ Titles:
   ort: "Ort"
   referenten: "Referenten"
   programm: "Programm"
-  registrierung: Registrierung
+# registrierung: Registrierung
   atf: ATF-Anerkennung
   kosten: "Kosten"
   kontakt: "Kontakt"
-# The Call To Action button at the header,
-# If you don't want this, just remove the callToAction property.
-CallToAction:
-  text: "Registrieren Sie sich jetzt!"
-  link: "#registrierung"
 
 # Das gesamte Programm
 Schedule:
