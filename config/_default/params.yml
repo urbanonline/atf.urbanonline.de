@@ -37,6 +37,7 @@ Schedule:
       time: "9:00 bis 9:15"
   - name: ""
     photo: "/img/theresa-scheu.jpg"
+    company: "Lehr- und Versuchsgut Neumühle"
     bio: "Dr. Theresa Scheu ist Fachtierärztin für Rinder auf dem Lehr- und Versuchsgut Neumühle (Pfalz) "
     link:
       href: "https://www.hofgut-neumuehle.de/"

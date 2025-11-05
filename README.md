@@ -1,6 +1,6 @@
 # Quelldateien für die Webseite atf.urbanonline.de
 
-Die Firma Urban GmbH veranstaltet am 09. Oktober 2025 einen Praxisworkshop mit dem Titel `Erfolgreicher Einsatz von Tränkeautomaten
+Die Firma Urban GmbH veranstaltete am 09. Oktober 2025 einen Praxisworkshop mit dem Titel `Erfolgreicher Einsatz von Tränkeautomaten
 und UV-C Hygienisierung in der Kälberaufzucht`. Zur Bewerbung dieser Veranstaltung wurde die Seite [`https://atf.urbanonline.de`](https://atf.urbanonline.de) erstellt, dieses Repository enthält die entsprechenden Quelltexte und dient dem Deployment der Webseite.
 
 ## Technologie
